@@ -16,5 +16,5 @@
     - join: dim_location
       type: inner
       relationship: many_to_one
-      sql_on: ${insurance_test.location_id = ${dim_location.location_id}
+      sql_on: ${insurance_test.county} = ${dim_location.county}
    
